@@ -1,0 +1,52 @@
+body{
+    color:darkslategrey;
+    font-family : arial;
+    max-width : 650px;
+    margin : 0 auto;
+    padding : 0 16px;
+
+    display : flex;
+    flex-direction : column;
+    min-height: 100vh;
+}
+.mainContent{
+    flex-grow: 1;
+}
+.portrait{
+    width : 250px;
+}
+footer{
+    color:darkslategrey;
+    border: 1px solid lightgrey;
+    margin-top : 16 px;
+    padding: 1px 0;
+    background-image: url('/img/clouds.jpg');
+}
+header{
+    margin-top:16px;
+    margin-bottom:48px;
+    background-image: url('/img/clouds.jpg');
+}
+
+h1{
+    font-size: 64px;
+    margin-bottom:16px;
+}
+
+header a{
+    color : darkcyan;
+    margin-right: 16px;
+    text-decoration: none ;
+}
+input{
+    border :1px solid darkslategrey;
+    padding : 8px;
+}
+
+button{
+    cursor : pointer;
+    border :1px solid darkslategrey;
+    background: darkslategrey;
+    color: white;
+    padding : 8px;
+}
