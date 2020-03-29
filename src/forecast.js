@@ -11,7 +11,7 @@ const forecast=(long,lat, callback)=>{
             callback("Please provide correct long and lat value.",undefined)
         }
         else{
-            callback(undefined,body.daily.data[0].summary+"It is currently "+body.currently.temperature + " degress out.There is "+body.currently.precipProbability+"% chance of rain.")
+            callback(undefined,body.daily.data[0].summary+"It is currently "+body.currently.temperature + " degress out.There is "+body.currently.precipProbability+"% chance of rain. Highest Temperature of the day : "+body.daily.data[0].temperatureHigh +" degree. Lowest temperature of the day : "+body.daily.data[0].temperatureLow +" degree.")
         }
     })
 }
